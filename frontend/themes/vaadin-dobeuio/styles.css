@@ -1,0 +1,18 @@
+@import url('./main-layout.css');
+@import url('@fontsource/roboto/index.css');    html {
+--lumo-font-family: Roboto;
+
+    }
+
+    [theme~="dark"] {
+      --lumo-primary-color: rgb(11, 112, 219);
+      --lumo-primary-color-50pct: rgba(11, 112, 219, 0.5);
+      --lumo-primary-color-10pct: rgba(11, 112, 219, 0.1);
+      --lumo-base-color: rgb(28, 28, 40);
+      --lumo-success-color: rgb(107, 229, 232);
+      --lumo-success-color-50pct: rgba(107, 229, 232, 0.5);
+      --lumo-success-color-10pct: rgba(107, 229, 232, 0.1);
+      --lumo-primary-text-color: rgb(11, 112, 219);
+      --lumo-success-text-color: rgb(107, 229, 232);
+
+    }
